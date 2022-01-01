@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+}
+*::selection {
+  background: $dark;
+  color: $light;
+}
+::-webkit-scrollbar {
+  width: 0.2em;
+}
+::-webkit-scrollbar-thumb {
+  background: $primary;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $lato;
+  background: $dark;
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+b,
+i,
+u,
+ul,
+ol,
+li,
+span {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img,
+video {
+  width: 100%;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: $dark-alt;
+}
